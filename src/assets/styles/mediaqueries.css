@@ -1,0 +1,31 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+  
+    #hamburger-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .hamburger-icon span {
+      background-color: black;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .nav-links {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .logo {
+      font-size: 1rem;
+    }
+  
+    .menu-links a {
+      font-size: 1rem;
+    }
+  }
+  
